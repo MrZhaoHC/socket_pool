@@ -1,0 +1,6 @@
+此项目server是服务端，可以接受多个client客户端的网络请求
+编译 gcc server.c threadPool.c -lpthread -o server
+     gcc client.c -o client
+ 
+	./server 执行服务端
+	./client执行客户端 
